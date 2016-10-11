@@ -36,7 +36,8 @@ Options for Backtop
   buttontheme = ligth
 ```  
 
-
+![alt tag](https://github.com/psykolm22/ng2-backtop/tree/master/img/ng2-backtop-dark.gif)
+![alt tag](https://github.com/psykolm22/ng2-backtop/tree/master/img/ng2-backtop-light.gif)
 
 #Tested in:
 * Chrome

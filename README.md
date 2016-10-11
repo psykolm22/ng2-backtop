@@ -1,31 +1,48 @@
-# Ng2Backtop
+# ng2-google-place-autocomplete
+Backtop-Angular2 Directive/Component <br/>
+This is a Backtop Directive/Component for Angular 2.
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
+# GitHub
+Please fell free to declare issues or contribute  : https://github.com/psykolm22/ng2-backtop
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Installation
+npm i --save ng2-backtop
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
+# Add it to app.component.html 
+* in your app.component.html :
+```html
+<backtop scrollspeed=600 buttontheme="light"></backtop>
+```
 
-## Build
+* Add BacktopModule in your app.module.ts:
+```javascript
+import {BacktopModule} from 'ng2-backtop';
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+@NgModule({
+    ...
+    import: [..., BacktopModule]
+})
+```
 
-## Running unit tests
+#Options
+Options for Backtop
+* Choose speed to scroll top : example : 100(very fast)  -  10000(very slow)
+```
+  scrollspeed = 600 (default)
+```  
+* buttontheme CSS Style : choose to ligth or dark or create your own theme based on ng2-backtop.css
+```
+  buttontheme = ligth
+```  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
-Before running the tests make sure you are serving the app via `ng serve`.
+#Tested in:
+* Chrome
+* Firefox
+* Safari
 
-## Deploying to Github Pages
 
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#For previous version of Angular 1:
+https://github.com/vskosp/vsGoogleAutocomplete

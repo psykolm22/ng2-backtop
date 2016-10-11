@@ -48,7 +48,7 @@ currentYPosition() {
                     scrollTo(0, stopY);
                     return;
                 }
-                var speed = Math.round(this.speed / 100);
+                var speed = this.speed  ? Math.round(this.speed / 100) : 6 ;
                 var step = Math.round(distance / 25);
                 var leapY = stopY > startY ? startY + step : startY - step;
                 var timer = 0;

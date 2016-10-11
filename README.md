@@ -5,11 +5,15 @@ This is a Backtop Directive/Component for Angular 2.
 # GitHub
 Please fell free to declare issues or contribute  : https://github.com/psykolm22/ng2-backtop
 
+#Prerequies
+
+FontAwesome : http://fontawesome.io/
+
 # Installation
 npm i --save ng2-backtop
 
 
-# Add it to app.component.html 
+# Usage
 * in your app.component.html :
 ```html
 <backtop scrollspeed=600 buttontheme="light"></backtop>

@@ -1,4 +1,4 @@
-# ng2-google-place-autocomplete
+# ng2-backtop
 Backtop-Angular2 Directive/Component <br/>
 This is a Backtop Directive/Component for Angular 2.
 
@@ -42,7 +42,3 @@ Options for Backtop
 * Chrome
 * Firefox
 * Safari
-
-
-#For previous version of Angular 1:
-https://github.com/vskosp/vsGoogleAutocomplete
